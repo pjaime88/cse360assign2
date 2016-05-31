@@ -76,13 +76,13 @@ public class OrderedIntList {
 		//debugging
 		if (debug == true)
 		{
-			System.out.println("debug - insertList function ");
+			System.out.println("\ndebug - insertList function ");
 			System.out.println("debug - Number Of Elements In the List: " + numOfElemtsInList);
 			System.out.print("debug - Array of Numbers is:");
 			
 			for (int index = 0; index < numOfElemtsInList; index++)
 			{
-				System.out.print(" "+ listOfIntegers[index]); 
+				System.out.print(" " + listOfIntegers[index]); 
 			}
 			System.out.println();
 		}
@@ -104,13 +104,13 @@ public class OrderedIntList {
 		//debugging
 		if (debug == true)
 		{
-			System.out.println("debug - growList function ");
+			System.out.println("\ndebug - growList function ");
 			System.out.println("debug - Number Of Elements In the List: " + numOfElemtsInList);
 			System.out.print("debug - The New List of Numbers is:");
 			
 			for (int index = 0; index < numOfElemtsInList; index++)
 			{
-				System.out.print(" "+ listOfIntegers[index]); 
+				System.out.print(" " + listOfIntegers[index]); 
 			}
 			System.out.println();
 		}
@@ -127,13 +127,13 @@ public class OrderedIntList {
 		//debugging
 		if (debug == true)
 		{
-			System.out.println("debug - printAllValues function ");
+			System.out.println("\ndebug - printAllValues function ");
 			System.out.println("debug - Number Of Elements In the List: " + numOfElemtsInList);
 			System.out.print("debug - The Numbers in the listOfIntegers of Numbers are:");
 			
 			for (int index = 0; index < numOfElemtsInList; index++)
 			{
-				System.out.print(" "+ listOfIntegers[index]); 
+				System.out.print(" " + listOfIntegers[index]); 
 			}
 			System.out.println();
 		}		

@@ -163,7 +163,7 @@ public class Analytics extends OrderedIntList{
 		//debugging
 		if(debug== true)
 		{
-			System.out.println("\ndebug - Debugging The High function");
+			System.out.println("\ndebug - The High function");
 			
 			try{
 				System.out.println("debug - Last Number in the listOfIntegers: " + listOfIntegers[numOfElemtsInList - 1]);
@@ -213,7 +213,7 @@ public class Analytics extends OrderedIntList{
 		//debugging
 		if(debug == true)
 		{
-			System.out.println("debug - Low() Function");
+			System.out.println("\ndebug - Low() Function");
 		}
 		
 		if (numOfElemtsInList == 0)
@@ -265,7 +265,7 @@ public class Analytics extends OrderedIntList{
 		if(debug == true)
 		{
 			System.out.println("\ndebug - numInts Function");
-			System.out.println("debug - At this Point numInt should be: " + intNumInts);
+			System.out.println("debug - At this Point numInt is: " + intNumInts);
 		}
 		
 		return intNumInts;

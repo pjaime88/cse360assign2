@@ -1,3 +1,12 @@
+/**
+ * @author Paulo Jaime
+ * PIN: 28
+ * Assign #2 
+ * CSE 360
+ * TestAnalytics The class contains a main method 
+ * and adequately test all methods in Analytics, both local and inherited
+ */
+
 package cse360assign2;
 
 import java.util.Scanner;
@@ -41,16 +50,22 @@ public class TestAnalytics {
 			
 		}
 		
+		//calling the printAllValues
 		Analytics.printAllValues();
 		
+		//printing the Mean Value
 		System.out.println("\nMean Value: "+ Analytics.mean());
 		
+		//printing the Median Value
 		System.out.println("\nMedian Value: "+ Analytics.median());
 		
+		//printing the High Value
 		System.out.println("\nHigh Value: "+ Analytics.high());
 		
+		//printing the Low Value
 		System.out.println("\nLow Value: "+ Analytics.low());
 		
+		//printing the The number of integers in the list
 		System.out.println("\nThe number of integers in the list is: "+ Analytics.numInts()) ;
 		
 	   }
